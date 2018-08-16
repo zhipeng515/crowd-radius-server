@@ -108,11 +108,16 @@
             <artifactId>logback-classic</artifactId>
             <version>${logback-version}</version>
         </dependency>
-        
+        <!-- tinyradius -->
+        <dependency>
+            <groupId>org.tinyradius</groupId>
+            <artifactId>tinyradius</artifactId>
+            <version>1.1.0</version>
+        </dependency>
         <dependency>
            <groupId>com.atlassian.crowd</groupId>
            <artifactId>crowd-integration-client-rest</artifactId>
-            <version>2.3.6</version>
+            <version>3.1.2</version>
         </dependency>
     </dependencies>
 
